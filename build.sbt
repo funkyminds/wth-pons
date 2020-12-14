@@ -1,6 +1,6 @@
 name := "wth-pons"
 
-version := "0.0.1"
+version := "0.0.1-SNAPSHOT"
 
 organization in ThisBuild := "io.funkyminds"
 
@@ -12,7 +12,7 @@ val zioVersion = "1.0.3"
 
 //@formatter:off
 libraryDependencies ++= Seq(
-  "io.funkyminds"       %%  "wth-core"            % "0.0.1",
+  "io.funkyminds"       %%  "wth-core"            % "0.0.1-SNAPSHOT",
   "dev.zio"             %%  "zio"                 % zioVersion,
   "dev.zio"             %%  "zio-streams"         % zioVersion,
   "dev.zio"             %% "zio-test"             % zioVersion % "test",
